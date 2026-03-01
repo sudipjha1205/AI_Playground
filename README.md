@@ -40,10 +40,10 @@ ai_playground/
 
 ```bash
 git clone <repo>
-cd ai_playground
+cd AI_PLAYGROUND
 
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+python -m venv my-env
+source my-env/bin/activate  # Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
 ```
@@ -51,15 +51,11 @@ pip install -r requirements.txt
 ### 2. Configure API Key
 
 ```bash
-cp .env.example .env
+add .env file in the main directory
 # Edit .env and add your Anthropic API key:
 # ANTHROPIC_API_KEY=sk-ant-...
 ```
 
-Or set as environment variable:
-```bash
-export ANTHROPIC_API_KEY=sk-ant-...
-```
 
 ### 3. Run
 
